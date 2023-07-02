@@ -59,10 +59,6 @@ const draw = () => {
       const x = cell.col * cellSize
       const y = cell.row * cellSize
 
-      if (cell.col === 0 && cell.row === 0) {
-        console.log(x, y)
-      }
-
       if (cell.top) {
         graphics.moveTo(x, y)
         graphics.lineTo(x + cellSize, y)
