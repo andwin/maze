@@ -1,6 +1,6 @@
 import { Application } from 'pixi.js'
 
-import './style.css'
+import '../style.css'
 
 const app = new Application({
   width: 800,
