@@ -41,7 +41,7 @@ const app = new PIXI.Application({
   width,
   height,
   backgroundColor: 0x1099bb,
- })
+})
 
 document.querySelector('#app')!.appendChild(app.view as HTMLCanvasElement)
 
@@ -59,7 +59,7 @@ const draw = () => {
       const x = cell.col * cellSize
       const y = cell.row * cellSize
 
-      if(cell.col === 0 && cell.row === 0) {
+      if (cell.col === 0 && cell.row === 0) {
         console.log(x, y)
       }
 
